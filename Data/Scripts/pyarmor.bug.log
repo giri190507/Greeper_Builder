@@ -1,0 +1,12 @@
+[BUG]: no found input "C:\Users\Giri\Documents\Bridge\Greeper_Builder_V1.6\Data\Scripts\Greeper_builder.py"
+
+## Command Line
+C:\Users\Giri\Documents\Bridge\Greeper_Builder_V1.6\Data\Scripts\pyarmor gen C:\Users\Giri\Documents\Bridge\Greeper_Builder_V1.6\Data\Scripts\Greeper_builder.py
+
+## Environments
+Python 3.8.9
+Pyarmor 9.0.7 (trial), 000000, non-profits
+Platform windows.x86_64
+Native windows.amd64
+Home C:\Users\Giri\.pyarmor
+

